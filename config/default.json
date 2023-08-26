@@ -1,0 +1,27 @@
+{
+    "port": 3100,
+    "db": {
+        "host": "containers-us-west-155.railway.app",
+        "user": "root",
+        "password": "n2k8ye206w6Vmvo3cO2Q",
+        "database": "railway",
+        "port": "6150"
+    },
+    "file": {
+        "path": "./files/"
+    },
+    "firebase": {
+        "type": "service_account",
+        "project_id": "memory-99593",
+        "private_key_id": "4ce23151b9fe506b0901634d1e6e3035498a96ce",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUql1CQ0u77Tze\nqepExQzIMLZ4RZuTRomid+nRcoPpmrWqKqHuIn2H5pzz2dQfR0Ujv5QzWkRIYy8c\nBnLZ2axBrh+W7nzq5CeAgtFegdFNHzKvYFtutN9CzYQfO9N4WKgblrIa/GGPNfgD\nNcsjy0p2LqciLCiD3bidTkITPM+a1m1iCmgRLw0liGPi1Uc8y/xXHfTVYVfVROb0\n8iuHTxYLL6TENOvnQdkhYsrfzlS4CqhI03coWS3w3Ae1XRyubF/zvKzmzQtFCuFm\n+zSAm5MmSvItBQROaq2LTUfDD+SzbJHMTV+fA11SuVBYhvQo1XpiHIPl38H6sl7C\ntqNrQjKPAgMBAAECggEAP0dMBZX5mHsAVC7R5tGNOpoICWSI5Lsl5AJzP9+nsaBX\nssEJus5ndMMha4uiywXNZFQyeE9BJxrgHyIqFXloAIkbnDDtWYU23c3PF6RgD2cb\nkUSGIDxQfFOjnxmRlGso5kCiUVZMfyzrVaUxgz6PsvexwoDKM2aLcr8g+RFsoqDl\nMgPXo8G7dZNE2cfPHMvMBDv95spnmKUe2Xbvc85UWRy2pVv6vcKrkbkBPyVfAvR/\n96rApu2F6nW92ONUmKYUyVs/pMwLAj2D2YAdni7/FasuE4VVLve+ymbiaUOK6vTZ\nOPkfVQxGm7wiNoXi96MN7iT1ulhCxkT+Z0YqaQHIbQKBgQDwrgVj6suOP8bMmwhA\nEnlSAl0m7pUmQp1jNpmbdNyrtPj8bX+l06jAqLPRujg5VAFnWTROvtnBmkHaUbs7\n+h8IpiEsoH5YcGrqYREIYwnRp21QBOxOKvQvb/1/5V9Ox+USVJ68si6v5xZFSRoc\nOEOzcNvy3kY16Lqf89DNnnSoOwKBgQDiM9at6xJyrY8zWbmS6qrE2VTVFdm3gmEn\n6Ar6aUOvSPyCx2cThkjEteDJjmra7A3IplUeen78R25R0uo5w5gABEtcq9ertHly\nU49aKFbaqNaxL3ZjpvWHEISrNmOK1xKUKnqtyvJCT16RpSWvHJtJkZI5OfwVV2Jo\nMY2FhVUNvQKBgDVqWdXoGU8zxlpImhcmQni5/5SRZNa9+BI53vOKhyMwogXcA3V5\nOT2w81+7lZjblQgr2xkS8F8wbicW9pgEFfkkbb5qzD+yi3gDHPWgjWBTaUZWIV/j\n1pfkof1Nmc5xPNzJnQVCAmyVu/Kam8nhjtz3UklfnXN/eFPhl9jarwdbAoGAJw3S\nK9bhKYGDrtb37kCr2S64sc2C+Gb/RTeP5aoU8IeGaUHqLvnJSIUqWUJIeqG0w4bM\nPWXi1MW0a1Yh8HUvohkbtdVJeDDBoxaAMo2yaTArWQ4bv5rM21Pjw/ew+gCmCYTI\nB4d5ii9P4Y+E0RX8TZhfiZfUSQ78Q4cCqyHZDHUCgYEAneynUz9hyW5snogzYazT\nFeDNp++k9KJedtrOLtZGY+MBePKL1v98mqYFic04cDNoc0GIFJ+nD2inQv4y4k07\n5HwZx6u2fhp+pQ8okAtDh5YcrlOzj+H1Gpf5ccyRpXfR48Rb9HY/LG8BlHaPtIhQ\n7lVzKUPKzdAzs0+e/oKl4LI=\n-----END PRIVATE KEY-----\n",
+        "client_email": "firebase-adminsdk-hlp9e@memory-99593.iam.gserviceaccount.com",
+        "client_id": "103295884040675358303",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-hlp9e%40memory-99593.iam.gserviceaccount.com",
+        "universe_domain": "googleapis.com"
+    },
+    "storageBucketUrl": "gs://memory-99593.appspot.com"
+}
