@@ -27,7 +27,6 @@ export const photoUpload = async (req, res, next) => {
     const uploadFile = upload.single("file");
     await uploadFile(req, res, async (error) => {
         if (error) { return next(error); }
-
         if (!req.file) return res.status(400).json({ message: 'File uploading failed.' });
 
         let body = {
@@ -40,7 +39,7 @@ export const photoUpload = async (req, res, next) => {
         if (result == null) return res.status(400).json({ message: 'File uploading failed.' });
         if (result != null) {
             fs.unlinkSync(req.file.path);
-            req.body.filename = result;
+            req.body.logoUrl = result;
             next();
         }
     });

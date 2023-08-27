@@ -9,6 +9,7 @@ export const login = async (req, res) => {
         "SELECT * FROM user WHERE email = ?",
         [req.body.email],
         ((err, data, fields) => {
+            if (err) return res.status(400).json({ message: err.message });
             if (data.length > 0) {
                 res.status(200).json({ message: "User login successfully.", data: { id: data[0].id } });
             }
