@@ -23,5 +23,7 @@
         "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-hlp9e%40memory-99593.iam.gserviceaccount.com",
         "universe_domain": "googleapis.com"
     },
-    "storageBucketUrl": "gs://memory-99593.appspot.com"
+    "storageBucketUrl": "gs://memory-99593.appspot.com",
+    "sendgrid_api_key": "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",
+    "sendgrid_from_email": "kachhadiya123viral@gmail.com"
 }
